@@ -6,7 +6,7 @@ Cfr. Pieter Hintjens, Code Connected Volume 1, pag. 107 at the moment [available
 The only fundamental difference is that the client has been "pulled out", due to the actual requirements of [Azienda-Online](https://aol.azienda-online.it/).
 
 ## Prerequisites
-You need ZeroMQ installed ([follow the instructions](http://zeromq.org/area:download)) and the [php-zmq enabled](http://zeromq.org/bindings:php) to run the client.
+You need ZeroMQ installed ([follow the instructions](http://zeromq.org/area:download)) and the [php-zmq module enabled](http://zeromq.org/bindings:php) to run the client.
 
 ## To run the server
 Use [Haskell Stack](https://www.haskellstack.org) and...
