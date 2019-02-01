@@ -16,6 +16,6 @@ for ($i = 0; $i < 4; $i++) {
     $events = $poll->poll($read, $write, 3 * 1000);
     if ($events) {
         $reply = $client->recv();
-        echo "Mi si dice {$reply}".PHP_EOL;
+        echo "Reply: {$reply}".PHP_EOL;
     }
 }
