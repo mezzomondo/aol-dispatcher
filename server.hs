@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-13.0 script
+-- stack --resolver lts-13.5 script
 
 import           Control.Concurrent      (threadDelay)
 import           Control.Concurrent.MVar (MVar, newMVar, withMVar)
